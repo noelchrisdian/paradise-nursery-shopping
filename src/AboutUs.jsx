@@ -1,7 +1,6 @@
-import React from 'react';
 import './AboutUs.css';
 
-function AboutUs() {
+const AboutUs = () => {
   return (
     <div className="about-us-container">
       {/* <h1 className="about-us-heading">About Us</h1> */}
@@ -29,4 +28,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export { AboutUs };
